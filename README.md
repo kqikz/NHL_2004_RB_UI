@@ -8,5 +8,5 @@ You need NodeJS compiler, when You get one:
 npm install <br/>
 npm run build
 
-Installation
+Installation <br/>
 Copy contents of created dist directory to  NHL 2004\fe\COMMON\html replacing main_menu.html file.
