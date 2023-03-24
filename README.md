@@ -5,7 +5,7 @@ New user interface for NHL 2004 Rebuilt mod based on modern technologies as of 2
 Compilation
 You need NodeJS compiler, when You get one:
 
-npm install
+npm install <br/>
 npm run build
 
 Installation
