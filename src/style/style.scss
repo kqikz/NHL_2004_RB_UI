@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+:root {
+	--font: Arial, sans-serif;
+	--textColor: #374961;
+	--linkActiveColor: #41b783;
+}
+
+#app {
+	font-family: var(--font);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: var(--textColor);
+
+	.logo {
+		width: 20%;
+	}
+}
+
+.nav {
+	padding: 30px 0 100px 0;
+
+	a {
+		font-weight: 500;
+		color: var(--textColor);
+		margin: 0 5px;
+	}
+
+	a.router-link-exact-active {
+		color: var(--linkActiveColor);
+	}
+}
+
+.mainmenubutton {
+	background: #f2f2f2;
+	/* fallback color */
+	background: linear-gradient(to bottom, #f2f2f2, #000000);
+	/* grayish gradient */
+	border-radius: 4px;
+	/* 4px rounded border */
+	border: none;
+	/* remove default button border */
+	padding: 8px 16px;
+	/* button padding */
+	cursor: pointer;
+	/* show hand cursor on hover */
+	color: rgb(235, 235, 235);
+	font-weight: bold;
+}
+
+.submenubutton {
+	background: #f2f2f2;
+	/* fallback color */
+	background: linear-gradient(to bottom, #f2f2f2, #000000);
+	/* grayish gradient */
+	border-radius: 4px;
+	/* 4px rounded border */
+	border: none;
+	/* remove default button border */
+	padding: 2px;
+	/* button padding */
+	cursor: pointer;
+	/* show hand cursor on hover */
+	color: #98e8f5;
+	min-width: 150px
+}
+
+.main_ctr {
+	background-image: url("./assets/main_bg.jpg");
+	background-size: cover;
+	background-repeat: round;
+}
+
+.top_ctr {
+	background-image: url("./assets/top_bg.jpg");
+	background-size: cover;
+}
+
+.bottom_ctr {
+	background-image: url("./assets/bottom_bg.jpg");
+	background-size: cover;
+}
+
+.dropbtn {
+	background: #f2f2f2;
+	/* fallback color */
+	background: linear-gradient(to bottom, #f2f2f2, #000000);
+	/* grayish gradient */
+	border-radius: 4px;
+	/* 4px rounded border */
+	border: none;
+	/* remove default button border */
+	padding: 8px 16px;
+	/* button padding */
+	cursor: pointer;
+	/* show hand cursor on hover */
+	color: rgb(235, 235, 235);
+	font-weight: bold;
+	font-family: arial;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 9px;
+	font-family: arial;
+}
+
+.dropdown-content a {
+
+	padding: 12px 16px;
+	background: #f2f2f2;
+	/* fallback color */
+	background: linear-gradient(to bottom, #f2f2f2, #000000);
+	/* grayish gradient */
+	border-radius: 7px;
+	/* 4px rounded border */
+	border: none;
+	/* remove default button border */
+	padding: 8px 16px;
+	/* button padding */
+	cursor: pointer;
+	/* show hand cursor on hover */
+	color: rgb(235, 235, 235);
+	font-weight: bold;
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: arial;
+
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+.caption {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: x-large;
+	color: white;
+	font-family: arial;
+	background-color: rgb(0, 0, 0);
+	opacity: 0.5;
+	border-radius: 5px;
+}
+
+.team-background {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.team-caption {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: x-large;
+	color: white;
+	font-family: arial;
+	border-radius: 5px;
+}
+
+.team-card-home {
+	opacity: 0.8;
+	border-radius: 5px;
+	padding: 5px;
+	width: 60%;
+	background-color: crimson;
+	margin: auto;
+}
+
+.team-card-away {
+	opacity: 0.8;
+	border-radius: 5px;
+	padding: 5px;
+	width: 60%;
+	background-color: rgb(128, 128, 255);
+	margin: auto;
+}
+
+.team-select {
+	min-width: 150px;
+}
+
+.controller-select {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.team-stats{
+		font-family: arial;
+		font-size: small;
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: antiquewhite;
+}
